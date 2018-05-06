@@ -3,9 +3,9 @@ description: LegenDad UXlog
 author: LegenDad
 github: https://github.com/LegenDad
 about: I am ...
-disqus_shortname: stackproblems
+disqus_shortname: LegenDad
 google_analytics: 
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/avatar.jpeg
 
 enableTags: true
 tagarray: []
