@@ -36,7 +36,7 @@ urls:
       url: /about/
     - text : python
       url : /category/python
-  # - text: My Projects
+      #text: My Projects
       #url: /projects/
     - text: XML Feed
       url: /feed.xml
