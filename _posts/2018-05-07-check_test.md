@@ -15,8 +15,9 @@ tags는 작동하는가...
 
 
 
-<meta content="{{ foo }}" property="article:tag">  
-<meta content="{{ bar }}" property="article:tag">
+<meta content="{{ tag }}" property="article:tag">  
+
 
 
 image???
+..
