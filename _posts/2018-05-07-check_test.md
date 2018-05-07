@@ -17,7 +17,13 @@ tags는 작동하는가...
 
 <meta content="{{ tag }}" property="article:tag">  
 
+<meta property="article:tag" content="advocate" />
 
+<ul>
+  <li property="article:tag">advocate</li>
+  <li property="article:tag">charity</li>
+  <li property="article:tag">crowdfunding</li>
+</ul>
 
 image???
 ..
