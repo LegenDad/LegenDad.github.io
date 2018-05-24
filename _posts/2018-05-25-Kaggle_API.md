@@ -67,7 +67,7 @@ api를 사용한다고 속도가 빠르지는 않다.
 # Jupyter Notebook
 
 
-![](../static/img/_posts/kaggleapi/jupyter.png)
+![jupyter](../static/img/_posts/kaggleapi/jupyter.png)
 
 위 이미지처럼 활용가능  
 데이터셋 다운로드 및 서브미션 제출도 가능하다.  
