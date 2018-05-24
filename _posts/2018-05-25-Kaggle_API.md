@@ -62,7 +62,10 @@ api를 사용한다고 속도가 빠르지는 않다.
 웹인터페이스를 이용하는 중간 과정을 생략하는 정도인 듯 하다.   
 
 <br>
+
+
 # Jupyter Notebook
+
 
 ![](../static/img/_posts/kaggleapi/jupyter.png)
 
