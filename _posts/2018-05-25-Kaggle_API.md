@@ -75,7 +75,7 @@ api를 사용한다고 속도가 빠르지는 않다.
 ```
 !pip install kaggle
 ```
-api json 파일 구글 업로드 후   
+api json 파일 구글 드라이브 업로드 후   
 
 ```
 from googleapiclient.discovery import build
