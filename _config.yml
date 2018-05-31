@@ -4,7 +4,7 @@ author: LegenDad
 github: https://github.com/LegenDad
 about: I am always a novice.
 disqus_shortname: LegenDad
-google_analytics: 
+google_analytics:
 avatar_url: /static/img/avatar.jpeg
 
 enableTags: true
@@ -34,8 +34,8 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text : python
-      url : /category/python
+    - text : Category
+      url : /category/kaggle
       #text: My Projects
       #url: /projects/
     - text: XML Feed
