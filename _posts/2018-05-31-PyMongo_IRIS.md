@@ -3,7 +3,7 @@ layout: post
 title:  "PyMongo IRIS"
 date:   2018-05-31 11:13:04
 categories: [python]
-tags: [python], [mongodb]
+tags: [python, mongodb]
 ---
 # Install PyMongo
 `pip install pymongo`
@@ -38,3 +38,5 @@ for x in range(0,len(iris.target_names)):
 
 ```
 
+# Check
+![](/images/pymongo/pymongo.iris.PNG)
