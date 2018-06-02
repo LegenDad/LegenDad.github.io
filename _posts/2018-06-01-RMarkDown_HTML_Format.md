@@ -27,6 +27,7 @@ output : html_document
 ```
 기본은 위와 같고,  
 여기서 html_document에 옵션 주는 것을 활용해보자.
+<br>
 
 
 # TOC
@@ -62,7 +63,7 @@ output :
 문서가 아래로 내려가도 목차를 계속 바로 확인 할 수 있게 하는 옵션  
 
 ![](/images/2018.06/toc_float.png)  
-
+<br>
 이미지 왼쪽이 toc만 추가,  
 이미지 오른쪽이 toc_float 추가  
 
@@ -119,5 +120,33 @@ output:
 output:
   html_document:
     code_folding : hide
+---
+```
+<br>
+# Theme
+
+Doc 참고를 해보면 쓸 수 있는 theme은 아래 인용 참조  
+> theme specifies the Bootstrap theme to use for the page (themes are drawn from the Bootswatch theme library). Valid themes include "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", and "yeti". Pass null for no theme (in this case you can use the css parameter to add your own styles).
+
+```
+---
+output:
+  html_document:
+    theme: cosmo
+---
+```
+
+<br>
+# Highlight
+
+사용 가능 옵션은 아래 인용문 참조
+> highlight specifies the syntax highlighting style. Supported styles include "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", and "textmate". Pass null to prevent syntax highlighting.
+
+```
+---
+output:
+  html_document:
+    theme: cosmo
+    highlight : espresso
 ---
 ```
