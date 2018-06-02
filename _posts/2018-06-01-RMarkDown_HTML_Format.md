@@ -4,18 +4,19 @@ title:  "R Markdown HTML Format"
 date:   2018-06-01 03:13:04
 categories: [R]
 tags: [R, markdown]
+toc : true
 ---
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 # Intro
+
 R Markdown으로 여러 포맷(md, html, pdf)을 만들 수 있고, 이 포맷 중 HTML 변환을 이용하면서 유용한 옵션 정보들을 살펴보려고 한다.
 
 [R Studio Markdown Doc](https://rmarkdown.rstudio.com/index.html)  
 
 [HTML Format Doc](https://rmarkdown.rstudio.com/html_document_format.html)
 
-Basic
+**Basic**
 ```
 ---
 title : "EDA AvIto"
@@ -30,6 +31,7 @@ output : html_document
 
 # TOC
 
+<br>
 Table Of Contents
 
 목차 만들기 옵션으로 생각하면 된다.
@@ -45,7 +47,7 @@ output :
 ```
 위 옵션만으로 목차가 문서 맨 위에 자동으로 생성된다.
 
-
+<br>
 ## Float
 
 ```
@@ -93,6 +95,7 @@ output:
     number_sections : true
 ---
 ```
+<br>
 
 # Figure
 
@@ -106,6 +109,7 @@ output:
     fig_height: 4.5
 ---
 ```
+<br>
 
 # Hide Code  
 
