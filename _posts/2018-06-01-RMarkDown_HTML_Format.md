@@ -4,7 +4,6 @@ title:  "R Markdown HTML Format"
 date:   2018-06-01 03:13:04
 categories: [R]
 tags: [R, markdown]
-toc : true
 ---
 
 
@@ -149,4 +148,38 @@ output:
     theme: cosmo
     highlight : espresso
 ---
+```
+<br>
+
+# Tabbed Sections
+
+하위 목차를 탭 형식으로 표시해주는 옵션
+
+```
+## Quarterly Results {.tabset}
+
+### By Product
+
+(tab content)
+
+### By Region
+
+(tab content)
+```
+![](/images/2018.06/tab_section.png)  
+위 이미지처럼 탭창으로 하위 목차를 구별 할 수 있게끔  
+생성된다.  
+
+
+### 추가 옵션  
+```
+## Quarterly Results {.tabset .tabset-fade .tabset-pills}
+
+### By Product
+
+(tab content)
+
+### By Region
+
+(tab content)
 ```
