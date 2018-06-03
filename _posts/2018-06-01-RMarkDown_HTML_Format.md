@@ -183,3 +183,17 @@ output:
 
 (tab content)
 ```
+<br>
+
+
+# R Chunk Options
+
+```
+{r,message=FALSE,warning=FALSE}
+```
+* message=FALSE
+코드 실행 시 나오는 문구 생략  
+예를 들어, 라이브러리 추가시 생성되는 메세지들 생략
+
+* warning=FALSE
+경고 문구 생략
