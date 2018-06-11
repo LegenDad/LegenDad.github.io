@@ -75,7 +75,7 @@ $ sudo apt-get install r-base
 ### 에러 발생 상황
 
 `apt-get update`에서 오류 발생으로  
-저장도 업데이트가 되지 않는다면
+저장소 업데이트가 되지 않는다면
 `sources.list`파일 열어서  
 trusty나 코드 네임 뒤에 `/`입력하고 진행
 
