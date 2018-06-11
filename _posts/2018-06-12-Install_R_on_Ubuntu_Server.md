@@ -48,7 +48,7 @@ root@....:~# grep . /etc/*-release
 
 한국 미러 주소 중 `http://cran.biodisk.org/`을 사용할 예정
 
-```bash
+```
 $ sudo echo "deb http://cran.biodisk.org/bin/linux/ubuntu/ trusty” | sudo tee -a /etc/apt/sources.list  
 ```
 
