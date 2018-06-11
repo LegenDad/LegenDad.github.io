@@ -16,15 +16,15 @@ tags: [R, ubuntu]
 
 # Preparation
 
-* [R Cran Info](https://cran.r-project.org/bin/linux/ubuntu/)
+* [R Cran Info](https://cran.r-project.org/bin/linux/ubuntu/)  
 리눅스 배포판 설치 매뉴얼  
 
 
-* [Ubuntu CodeName](https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%A2%85%EB%A5%98_%ED%99%95%EC%9D%B8,_%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%B2%84%EC%A0%84_%ED%99%95%EC%9D%B8)
+* [Ubuntu CodeName](https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%A2%85%EB%A5%98_%ED%99%95%EC%9D%B8,_%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%B2%84%EC%A0%84_%ED%99%95%EC%9D%B8)  
 우분부 코드 네임 얻는 법
 검색으로 위키에서도 확인 가능하나 서버에서 바로 확인하는 법
 
-* [Cran Mirror URL](https://cran.r-project.org/mirrors.html)
+* [Cran Mirror URL](https://cran.r-project.org/mirrors.html)  
 저장소 등록을 위해 쓰일 미러 사이트 주소 리스트
 
 <br>
