@@ -106,6 +106,8 @@ install.packages("devtools")
 이런 경우에는 터미널에서 의존성 패키지를 설치하고 재실행
 
 ```
+sudo apt-get install libssl-dev
+sudo apt-get install libcurl4-openssl-dev
 ```
 
 
