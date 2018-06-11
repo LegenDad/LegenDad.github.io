@@ -32,7 +32,7 @@ tags: [R, ubuntu]
 # Installation
 
 ### 우분투 코드 네임 확인
-```
+```bash
 root@....:~# grep . /etc/*-release
 /etc/lsb-release:DISTRIB_ID=Ubuntu
 /etc/lsb-release:DISTRIB_RELEASE=14.04
@@ -48,9 +48,10 @@ root@....:~# grep . /etc/*-release
 
 한국 미러 주소 중 `http://cran.biodisk.org/`을 사용할 예정
 
+```bash
+$ sudo echo "deb http://cran.biodisk.org/bin/linux/ubuntu/ trusty” | sudo tee -a /etc/apt/sources.list  
 ```
-$ sudo echo "deb http://cran.biodisk.org/bin/linux/ubuntu/ trusty” | sudo tee -a /etc/apt/sources.list
-```
+
 shell 명령어가 궁금하면  
 https://explainshell.com
 이 사이트에서 입력하면 잘 설명해준다.
@@ -60,14 +61,14 @@ https://explainshell.com
 
 
 ### 공개키 추가
-```
+```bash
 gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 gpg -a --export E084DAB9 | sudo apt-key add -
 ```
 
 ### Install R
 
-```
+```bash
 $ sudo apt-get update        
 $ sudo apt-get install r-base
 ```
@@ -82,7 +83,7 @@ trusty나 코드 네임 뒤에 `/`입력하고 진행
 추가로 gpg error가 발생하면  
 해당 gpg key 확인 후
 
-```
+```bash
 gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 gpg -a --export E084DAB9 | sudo apt-key add -
 ```
@@ -97,7 +98,7 @@ gpg -a --export E084DAB9 | sudo apt-key add -
 
 이래저래 활용이 많고 추후에 깔려면 귀찮으니
 미리 설치
-```
+```R
 install.packages("devtools")
 ```
 
@@ -105,11 +106,11 @@ install.packages("devtools")
 
 이런 경우에는 터미널에서 의존성 패키지를 설치하고 재실행
 
-```
+```bash
 sudo apt-get install libssl-dev
 sudo apt-get install libcurl4-openssl-dev
 ```
-
+<br>
 
 # Jupyter Notebook 연결  
 
@@ -125,8 +126,7 @@ sudo apt-get install libcurl4-openssl-dev
 
 > install.packages('devtools')
 > devtools::install_github('IRkernel/IRkernel')  
->  or devtools::install_local('IRkernel-master.tar.gz')
-> IRkernel::installspec()  # to register the kernel in the current R installation
+> IRkernel::installspec()
 
 > in R 3.3
 > IRkernel::installspec(name = 'ir33', displayname = 'R 3.3')
