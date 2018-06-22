@@ -39,7 +39,7 @@ urls:
     - text : Tag
       url : /tag
     - text : Kaggle UXLog
-      url : "https://legendad.github.io/KaggleUXLog/"
+      url : /KaggleUXLog
       #text: My Projects
       #url: /projects/
     - text: XML Feed
