@@ -36,6 +36,10 @@ urls:
       url: /about/
     - text : Category
       url : /category/kaggle
+    - text : Tag
+      url : /tag
+    - text : Kaggle UXLog
+      url : "https://legendad.github.io/KaggleUXLog/"
       #text: My Projects
       #url: /projects/
     - text: XML Feed
